@@ -7,14 +7,20 @@
         <em:version>1.0</em:version>
         <em:name>Zotero Classify Articles</em:name>
         <em:description>Zotero plugin to tag journal articles with the discipline(s) of the journal in which it was published.</em:description>
-        <em:creator>SWTR</em:creator>
+        <em:creator>SWTR</em:creator>   
         <em:targetApplication>
-            <Description>
-                <!-- Firefox -->
-                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-                <em:minVersion>7.0</em:minVersion>
-                <em:maxVersion>13.0a1</em:maxVersion>
-            </Description>
-        </em:targetApplication>
+          <Description>
+               <em:id>zotero@chnm.gmu.edu</em:id>
+               <em:minVersion>5.0.0</em:minVersion>
+               <em:maxVersion>5.*</em:maxVersion>
+          </Description>
+         </em:targetApplication>
+         <em:targetApplication>
+          <Description>
+               <em:id>juris-m@juris-m.github.io</em:id>
+               <em:minVersion>4.999</em:minVersion>
+               <em:maxVersion>5.*</em:maxVersion>
+          </Description>
+         </em:targetApplication>
     </Description>
 </RDF>
